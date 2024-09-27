@@ -1,0 +1,30 @@
+{
+    "name": "byfareska/modelflow-azure-openai-adapter",
+    "description": "Integrates the azure openai ecosystem into modelflow-ai.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Byfareska\\Modelflow\\AzureOpenaiAdapter\\": "src/"
+        }
+    },
+    "keywords": [
+        "ai",
+        "openai",
+        "azure",
+        "modelflow",
+        "modelflow-ai",
+        "gpt4",
+        "gpt3.5"
+    ],
+    "authors": [
+        {
+            "name": "Karol Szarafinowski",
+            "email": "karol@szarafinowski.pl"
+        }
+    ],
+    "require": {
+        "php": "^8.2",
+        "modelflow-ai/openai-adapter": "*"
+    }
+}
